@@ -4,8 +4,8 @@ This is the code for **SetGNER: General Named Entity Recognition as Entity Set G
 Part of the code is inherited from the repositories https://github.com/yhcc/BARTNER and https://github.com/fastnlp/fastNLP.
 
 ## Prerequisites
-transformers>=3.4.0 
-pytorch>=1.6.0 
+    transformers>=3.4.0 
+    pytorch>=1.6.0 
 
 ## Data
 Put the data in this manner:
