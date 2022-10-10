@@ -1,7 +1,7 @@
 This is the code for **SetGNER: General Named Entity Recognition as Entity Set Generation**.
 
 ## Acknowledgement
-Part of the code is inherited from an open-source repository, which will be cited here after the review process.
+Part of the code is inherited from the repositories https://github.com/yhcc/BARTNER and https://github.com/fastnlp/fastNLP.
 
 ## Prerequisites
 transformers>=3.4.0 
