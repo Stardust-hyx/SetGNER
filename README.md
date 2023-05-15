@@ -1,7 +1,4 @@
-This is the code for **SetGNER: General Named Entity Recognition as Entity Set Generation**.
-
-## Acknowledgement
-Part of the code is inherited from the repositories https://github.com/yhcc/BARTNER and https://github.com/fastnlp/fastNLP.
+This is the code for **SetGNER: General Named Entity Recognition as Entity Set Generation** (EMNLP 2022).
 
 ## Prerequisites
     transformers>=3.4.0 
@@ -55,4 +52,21 @@ Cup I-MISC
 Run the code by using
 ```shell
 python train.py --dataset_name [Name-of-Dataset]
+```
+
+## Cite
+If you find our work useful, please consider citing our paper:
+
+```
+@inproceedings{he-tang-2022-setgner,
+    title = "SetGNER: General Named Entity Recognition as Entity Set Generation",
+    author = "He, Yuxin  and
+      Tang, Buzhou",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.200",
+}
 ```
